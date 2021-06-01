@@ -1,0 +1,91 @@
+body {
+  overflow-x: hidden;
+}
+
+/* NAVIGATION */
+.navbar-brand {
+  font-family: Oswald;
+  color: white;
+  font-size: 3rem;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.container-fluid{
+  background-image:linear-gradient(to bottom right, #AEE1E1, #FFDEE9);
+  text-align: center;
+  height: 600px;
+}
+
+.head {
+  font-family: 'Raleway', sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.icon{
+ color: white;
+ padding: 2%;
+}
+
+.icon:hover{
+  color: #F2F0F0;
+}
+
+/* SONGS */
+
+.song{
+  margin:5% 2%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.head2{
+  margin-bottom: 4%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+}
+.col-md-6{
+  text-align: left;
+}
+.name{
+      display: inline-block ;
+}
+.song-icon{
+padding: 1.5%;
+}
+
+.songi{
+  text-align: right;
+}
+
+.song-icon:hover{
+  color: #B4B4B4;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #AEE1E1;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.social {
+  color: white;
+  padding: 1%;
+  size: 2%;
+}
+
+@media (max-width:750px) {
+  .container-fluid{
+    height: 500px;
+  }
+  .songi{
+    text-align: left;
+  }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>YOGA</title>
+
+  <!-- FAVICONS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Jim+Nightshade&family=Oswald:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles_m.css">
+
+
+</head>
+
+<body>
+  <!-- NAVIGATION AND TITLE PAGE -->
+  <section id="title">
+    <div class="conatiner-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <h1 class="navbar-brand" href="#">FitLife</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item "><a class="nav-link" href="#excercises">HOME</a></li>
+            <li class="navbar-item "><a class="nav-link" href="#testimonials">EXPLORE</a></li>
+            <li class="navbar-item "><a class="nav-link" href="#footer">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row row1">
+        <div class="col-md-6">
+          <h1 class="name" style="text-align:center">YOGA</h1>
+        </div>
+        <div class="col-md-6">
+          <img class="mainimg" style="width:80%" src="images\yoga3.jpg">
+        </div>
+      </div>
+  </section>
+  <!-- TIMER -->
+
+  <section id="timer">
+    <div class="Set-time">
+      <h1 class="heads">LETS GO AND SET THE WATCH</h1>
+      <div class="row row2">
+        <div class="col-md-4">
+          <h4 class="timer_input">HOURS</h4>
+          <h4> <input type="number" id="hours" class="timer_in" name="fname" min="0" max="99"></h4>
+        </div>
+        <div class="col-md-4">
+          <h4 class="timer_input">MINUTES</h4>
+          <h4> <input type="number" id="min" class="timer_in" name="fname" min="0" max="60"></h4>
+        </div>
+        <div class="col-md-4">
+          <h4 class="timer_input">SECONDS</h4>
+          <h4> <input type="number" id="secs" class="timer_in" name="fname" min="0" max="60"></h4>
+        </div>
+      </div>
+    </div>
+    <span class="dot"></span>
+    <span class="dot2"></span>
+    <span class="dot3"></span>
+    <span class="dot4"></span>
+    <div class="buttons-2">
+      <button type="button" id="time_set" class="btn btn-dark btn-lg start-btn" name="Start">DONE</button>
+    </div>
+
+  </section>
+
+  <!-- MUSIC -->
+  <section id="music">
+    <div class="playlist">
+      <h1 class="heads">SELECT YOUR JAM</h1>
+      <div class="row row3">
+        <div id="DIVINE" class="col-md-4 cards">
+          <div class="card text">
+            <img class="muscicimg" src="images\BG1.jpg" alt="">
+            <div class="card-img-overlay">
+              <p class="card-title"> DIVINE</p>
+            </div>
+          </div>
+        </div>
+        <div id="SOULFUL" class="col-md-4 cards">
+          <div class="card text">
+            <img class="muscicimg" src="images\BG1.jpg" alt="">
+            <div class="card-img-overlay">
+              <p class="card-title"> SOULFUL</p>
+            </div>
+          </div>
+        </div>
+        <div id="PEACE" class="col-md-4 cards">
+          <div class="card text">
+            <img class="muscicimg" src="images\BG1.jpg" alt="">
+            <div class="card-img-overlay">
+              <p class="card-title"> PEACE</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <h3 class="heads3">ALL DONE....LETS GO</h3>
+        <div class="buttons-2">
+        <a href="Timer.html"><button type="button" class="btn btn-dark btn-lg start-btn" name="Start" id="final">DONE</button></a>
+        </div>
+      </div>
+
+  </section>
+
+  <footer>
+    <div class="footer">
+      <i class="fab fa-twitter fa-1.8x social"></i>
+      <i class="fab fa-facebook-f fa-1.8x social"></i>
+      <i class="fab fa-instagram fa-1.8x social"></i>
+      <i class="fas fa-envelope fa-1.8x social"></i>
+      <p>© Copyright 2021 FitLife</p>
+    </div>
+
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+body {
+  overflow-x: hidden;
+}
+
+/* NAVIGATION */
+.navbar {
+  background-color: #AEE1E1;
+}
+
+.navbar-brand {
+  font-family: Oswald;
+  color: white;
+  font-size: 3rem;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.navbar-nav {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  margin-right: 3%;
+  margin-left: 1%;
+  font-weight: bold;
+}
+
+.row1 {
+  background-color: #AEE1E1;
+  text-align: right;
+  font-family: Oswald;
+  color: white;
+}
+
+.mainimg {
+  width: 60%;
+  margin-bottom: 5%;
+  margin-right: 20%;
+}
+
+.name {
+  font-family: Oswald;
+  font-size: 7rem;
+  margin-top: 20%;
+}
+
+@media (max-width:800px) {
+  .name {
+    font-family: Oswald;
+    font-size: 3rem;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .mainimg {
+  margin-left: 10%;
+  }
+}
+
+/* TIMER */
+#timer {
+  position: relative;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.heads {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.row2 {
+  font-family: Oswald;
+  font-family: 'Raleway', sans-serif;
+  margin: 4%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.dot {
+  height: 150px;
+  width: 150px;
+  background-color: #AEE1E1;
+  border-radius: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 1%;
+  left: 7%;
+}
+
+.dot2 {
+  height: 70px;
+  width: 70px;
+  background-color: #FCD1D1;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 1%;
+  left: 7%;
+}
+
+.dot3 {
+  height: 150px;
+  width: 150px;
+  background-color: #D3E0DC;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 1%;
+  right: 7%;
+}
+
+.dot4 {
+  height: 40px;
+  width: 40px;
+  background-color: #FCD1D1;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 1%;
+  right: 20%;
+}
+
+.buttons-2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.start-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+/* MUSIC */
+.playlist {
+  background-color: #FCD1D1;
+  padding: 1%;
+  padding-bottom: 2%;
+}
+
+.row3 {
+  margin-top: 2%;
+}
+
+.cards {
+  margin-bottom: 2%;
+}
+
+.muscicimg {
+  height: 200px;
+  border: none;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  line-height: 3.5;
+  font-weight: 900;
+}
+
+.heads3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #AEE1E1;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.social {
+  color: white;
+  padding: 1%;
+  size: 2%;
+}
